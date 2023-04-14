@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+ul,
+li,
+a,
+p {
+  list-style: none;
+  text-decoration: none;
+  color: grey;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  cursor: pointer;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+#navbar {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 5px 15px;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  margin: 0 !important;
+}
+
+.menu-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.logo-icon {
+  width: 5rem;
+}
+
+.searchbar {
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 2px 20px;
+  width: 400px;
+}
+
+.searchbar input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.search-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.voice-icon {
+  width: 1.5rem;
+  height: 2rem;
+}
+
+.nav-right img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+/* /////////////////      Side_Navbar      ///////////// */
+
+.side-navbar {
+  position: fixed;
+  height: 100vh;
+  background-color: white;
+  width: 20%;
+  padding-top: 10px;
+  padding-left: 15px;
+  overflow-y: scroll;
+}
+
+/* /////////////////      toggle      ///////////// */
+
+.toggle {
+  width: 6%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.toggle ul li a {
+  display: none;
+}
+
+.toggle ul li img {
+  margin: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.toggle h3 {
+  display: none;
+}
+.toggle hr {
+  width: 50%;
+}
+
+.side-navbar-list-items img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0px 20px;
+}
+
+.side-navbar-list-items a {
+  font-weight: 500;
+}
+
+.side-navbar-list-items a:hover {
+  color: red;
+}
+
+.subscription h3 {
+  font-size: 1.5rem;
+  color: rgb(65, 58, 58);
+  margin: 20px;
+}
+
+.main-blue {
+  height: 100vh;
+  /* background-color: blue; */
+}
+.main-red {
+  height: 100vh;
+  background-color: red;
+}
+
+/* /////////////////      Banner      ///////////// */
+
+.banner {
+  width: 100%;
+  padding-left: 20%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.large-banner {
+  padding-left: 7%;
+}
+
+.thumbnail-img img {
+  width: 100%;
+}
+
+.thumbnail-img:hover {
+  transform: scale(1.04);
+  transition: all 0.3s ease-in-out;
+}
+
+.dp-container {
+  width: 50%;
+}
+
+.banner .dp-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.banner .title {
+  color: rgba(0, 0, 0, 0.801);
+  cursor: pointer;
+}
+
+.banner .name {
+  color: gray;
+  font-weight: 400;
+  cursor: pointer;
+}
+.banner .name:hover {
+  color: gray;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.banner .views {
+  color: gray;
+  font-weight: 500;
+}
+
+/* /////////////////      Banner      ///////////// */
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
